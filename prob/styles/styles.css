@@ -10,7 +10,7 @@ body {
 
 }
 
-/* HERO */
+ 
 .hero {
   min-height: 60vh;
   background: #f8f9fa;
@@ -54,14 +54,14 @@ body {
   color: #5bc0be;
 }
 
-/* Photo */
+ 
 .photo-wrapper {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: auto;
-  overflow: hidden; /* Κόβει ό,τι περισσεύει χωρίς να το ζουλάει */
+  overflow: hidden;  
   border-radius: 50%;
-  border: 10px solid #e9ecef; /* Το πλαίσιο που ήθελες */
+  border: 10px solid #e9ecef;  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,7 +76,7 @@ body {
   display: block;
 }
 
-/* Language icons */
+ 
 .lang-icons {
   display: flex;
   gap: 10px;
