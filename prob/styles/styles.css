@@ -431,6 +431,17 @@ body {
         border-bottom: 1px solid #ddd !important;  
         
     }
+
+    a {
+    position: relative !important;
+    z-index: 9999 !important;
+    pointer-events: auto !important;
+}
+ 
+.hero-text, .project-content {
+    position: relative;
+    z-index: 2;
+}
  
     .navbar-brand, .nav-link {
         padding: 0 !important;
@@ -468,11 +479,54 @@ body {
         display: flex !important;
     }
  
-    .navbar-toggler, .portfolio .btn-view {
+    .navbar-toggler   {
         display: none !important;
     }
  
     body { padding-top: 0 !important; }
     .hero { min-height: auto !important; padding: 40px !important; }
     section { break-inside: avoid; }
+
+    .portfolio {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* 2. Μειώνουμε το ύψος των εικόνων για να κερδίσουμε χώρο */
+    .project-img {
+        height: 150px !important; /* Από 200-250 που ήταν, το κάνουμε 150 */
+    }
+
+    /* 3. Μειώνουμε τα κενά μέσα στην κάρτα */
+    .project-content {
+        padding: 10px !important;
+    }
+
+    .project-content h3 {
+        margin-bottom: 5px !important;
+        font-size: 16px !important;
+    }
+
+    .project-content p {
+        margin-bottom: 10px !important;
+        font-size: 13px !important;
+    }
+
+    /* 4. Μειώνουμε την απόσταση μεταξύ των δύο project cards */
+    #portfolio .row > div {
+        margin-bottom: 20px !important; 
+    }
+
+    /* 5. Εξασφαλίζουμε ότι η κάρτα δεν θα προσπαθήσει να σπάσει */
+    .project-card {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+    .btn-view {
+        background-color: #5bc0be !important;
+        color: white !important;
+        -webkit-print-color-adjust: exact; /* Αναγκάζει τον Chrome να εκτυπώσει το χρώμα */
+        print-color-adjust: exact;
+    }
+
 }
