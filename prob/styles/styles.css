@@ -492,12 +492,11 @@ body {
         padding-bottom: 20px !important;
     }
 
-    /* 2. Μειώνουμε το ύψος των εικόνων για να κερδίσουμε χώρο */
+    
     .project-img {
-        height: 150px !important; /* Από 200-250 που ήταν, το κάνουμε 150 */
+        height: 150px !important;  
     }
-
-    /* 3. Μειώνουμε τα κενά μέσα στην κάρτα */
+ 
     .project-content {
         padding: 10px !important;
     }
@@ -511,13 +510,7 @@ body {
         margin-bottom: 10px !important;
         font-size: 13px !important;
     }
-
-    /* 4. Μειώνουμε την απόσταση μεταξύ των δύο project cards */
-    #portfolio .row > div {
-        margin-bottom: 20px !important; 
-    }
-
-    /* 5. Εξασφαλίζουμε ότι η κάρτα δεν θα προσπαθήσει να σπάσει */
+ 
     .project-card {
         page-break-inside: avoid !important;
         break-inside: avoid !important;
@@ -525,7 +518,7 @@ body {
     .btn-view {
         background-color: #5bc0be !important;
         color: white !important;
-        -webkit-print-color-adjust: exact; /* Αναγκάζει τον Chrome να εκτυπώσει το χρώμα */
+        -webkit-print-color-adjust: exact; 
         print-color-adjust: exact;
     }
 
