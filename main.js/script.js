@@ -1,4 +1,4 @@
-// ====== TRANSLATIONS ======
+//   TRANSLATIONS  
 const translations = {
   el: {
     nav_about: "About Me",
@@ -13,8 +13,8 @@ const translations = {
     // about
     about_title: "Σχετικά με εμένα",
     about_p1: "Κάτοχος δύο πτυχίων στους τομείς της Αισθητικής και της Διοίκησης Τουριστικών Επιχειρήσεων. Διαθέτω συνέπεια και καλή ικανότητα προσαρμογής σε διαφορετικά εργασιακά περιβάλλοντα, καθώς και αποτελεσματική συνεργασία και επικοινωνία σε ομαδικό πλαίσιο.",
-    about_p2: "Πλέον έχω στραφεί στον τομέα της τεχνολογίας, με έμφαση στον προγραμματισμό και τον σχεδιασμό ιστοσελίδων, διαθέτοντας βασικές γνώσεις HTML,CSS και JavaScript. Αυτή την περίοδο ολοκληρώνω πιστοποίηση Junior Graphic Designer μέσω προγράμματος της ΔΥΠΑ, ενισχύοντας τις δημιουργικές και τεχνικές μου δεξιότητες. Στόχος μου είναι η συνεχής μάθηση και η σταδιακή εξέλιξη στον ψηφιακό τομέα.",
-    
+    about_p2: "Πλέον έχω στραφεί στον τομέα της τεχνολογίας, με έμφαση στον προγραμματισμό και τον σχεδιασμό ιστοσελίδων. Διαθέτω γνώσεις HTML, CSS και JavaScript, ενώ αυτή την περίοδο εμβαθύνω στη React. Στόχος μου είναι η συνεχής μάθηση και η επαγγελματική εξέλιξη στον ψηφιακό τομέα.",
+
     skills_title: "Δυνατά Σημεία",
     skill_1: "Πρακτικότητα & Επίλυση Προβλημάτων",
     skill_2: "Δημιουργία σχέσεων Εμπιστοσύνης",
@@ -31,15 +31,15 @@ const translations = {
     certifications_title: "Πιστοποιήσεις & Κατάρτιση",
     education_group_title: "Εκπαίδευση",
 
-    edu1_date: "12/2026 – σήμερα",
+    edu1_date: "1/2026 – σήμερα",
     edu1_title: "React JS Developer for Entry-Level Job (e-learning)",
     edu1_place: "ΕΚΠΑ – Κέντρο e-Learning",
 
     edu2_date: "2025 – σήμερα",
-    edu2_title: "Πιστοποίηση Junior Graphic Designer",
+    edu2_title: "Graphic Design Certification — UCert",
     edu2_place: "ΔΥΠΑ",
 
-    edu3_date: "11/2025 – 01/2026",
+    edu3_date: "10/2025 – 01/2026",
     edu3_title: "JavaScript – Web Development Masterclass (React & Node.js)",
     edu3_place: "Udemy (Online) — 130 ώρες",
 
@@ -88,8 +88,8 @@ const translations = {
 
     about_title: "About Me",
     about_p1: "Holder of two degrees in Aesthetics and Tourism Business Administration, with strong adaptability to diverse work environments and effective collaboration and communication skills within team settings.",
-    about_p2: "Now i have shifted my focus to the field of technology, with an emphasis on programming and web design, possessing basic knowledge of HTML,CSS and JavaScript. At this time, I am completing a Junior Graphic Designer certification through a DYPA program, further strengthening my creative and technical skills. My goal is continuous learning and gradual development in the digital sector.",
-    
+    about_p2: "I have recently transitioned into the technology sector, with a focus on programming and web design. I have knowledge of HTML, CSS and JavaScript, and I am currently deepening my skills in React. My goal is continuous learning and professional growth in the digital field",
+
     skills_title: "Key Skills",
     skill_1: "Practicality & Problem Solving",
     skill_2: "Building Trusting Relationships",
@@ -106,15 +106,15 @@ const translations = {
     certifications_title: "Certifications & Training",
     education_group_title: "Education",
 
-    edu1_date: "12/2026 – Present",
+    edu1_date: "1/2026 – Present",
     edu1_title: "React JS Developer for Entry-Level Job (e-learning)",
     edu1_place: "National and Kapodistrian University of Athens – e-Learning",
 
     edu2_date: "2025 – Present",
-    edu2_title: "Junior Graphic Designer Certification",
+    edu2_title: "Graphic Design Certification — UCert",
     edu2_place: "DYPA",
 
-    edu3_date: "11/2025 – 01/2026",
+    edu3_date: "10/2025 – 01/2026",
     edu3_title: "JavaScript – Web Development Masterclass (React & Node.js)",
     edu3_place: "Udemy (Online) — 130 hours",
 
